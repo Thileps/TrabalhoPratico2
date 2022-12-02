@@ -18,7 +18,7 @@ $(document).ready(function() {
                     <div class="ratio" style="--bs-aspect-ratio: 50%;">
                         <img src="${game.background_image}" class="img-fluid" alt="imagem game">
                     </div>
-                    <h5 class="fs-6">Classificação: <span class="float-end">${game.rating}</span></h5>
+                    <h5 class="fs-6">Avaliação: <span class="float-end">${game.rating}</span></h5>
                     <h5 class="fs-6">Data de lançamento: <span class="float-end">${game.released}</span></h5>
                     <div class="game-body">
                         <a href="#"><button type="button" class="btn btn-secondary">Mais detalhes ...</button></a>
