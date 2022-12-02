@@ -21,7 +21,7 @@ $(document).ready(function() {
                     <h5 class="fs-6">Avaliação: <span class="float-end">${game.rating}</span></h5>
                     <h5 class="fs-6">Data de lançamento: <span class="float-end">${game.released}</span></h5>
                     <div class="game-body">
-                        <a href="#"><button type="button" class="btn btn-secondary">Mais detalhes ...</button></a>
+                        <a href="detalhes.html?id=${game.id}"><button type="button" class="btn btn-secondary">Mais detalhes ...</button></a>
                     </div>
                 </div>
                 </div>`;
